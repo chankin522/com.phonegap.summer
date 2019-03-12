@@ -7,7 +7,7 @@
   <author email="dev@rete.com.hk" href="http://www.rete.com.hk">
       RETE
   </author>
-  <icon src="icon.png" />
+  <icon src="www/icon.png" />
   <content src="index.html" />
   
   
@@ -22,7 +22,7 @@
     <allow-intent href="market:*" />
   </platform>
   <platform name="ios">
-    <icon src="icon.png" platform="ios" />
+    <icon src="www/icon.png" platform="ios" />
   </platform>
   <preference name='phonegap-version' value='cli-6.5.0' />
   
@@ -31,9 +31,9 @@
   <plugin name="cordova-plugin-ios-camera-permissions" spec="1.2.0" />
   <plugin name="phonegap-plugin-barcodescanner" spec="7.1.2" />
   
-  <preference name="BackgroundColor" value="#0f322b" />
+  <preference name="BackgroundColor" value="#f0e3cc" />
   <preference name="StatusBarOverlaysWebView" value="false" />
-  <preference name="StatusBarBackgroundColor" value="#0f322b" />
+  <preference name="StatusBarBackgroundColor" value="#f0e3cc" />
   <preference name="DisallowOverscroll" value="true" />
   
   
