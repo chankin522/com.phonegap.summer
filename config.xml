@@ -7,34 +7,35 @@
   <author email="dev@rete.com.hk" href="http://www.rete.com.hk">
       RETE
   </author>
-  <icon src="icon.png" />
+  <icon src="www/images/icon-60@2x.png" />
   <content src="index.html" />
   
   
   
   <access origin='*' subdomains="true" allows-arbitrary-loads-in-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
   <allow-navigation href="*" />
-   <allow-intent href="http://*/*" launch-external="yes"/>
-	<allow-intent href="https://*/*" launch-external="yes"/>
+  <allow-intent href="http://*/*" launch-external="yes"/>
+  <allow-intent href="https://*/*" launch-external="yes"/>
   
   <platform name="android">
     <preference name="android-minSdkVersion" value="16" />
     <allow-intent href="market:*" />
   </platform>
   <platform name="ios">
-    <icon height="120" platform="ios" src="www/images/icon.png" width="120" />
-    
+      <icon height="120" platform="ios" src="www/images/icon-60@2x.png" width="120" />
+     
   </platform>
   <preference name='phonegap-version' value='cli-6.5.0' />
   
   <plugin name="cordova-plugin-console" spec="~1.0.1" />
   <plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
   <plugin name="cordova-plugin-ios-camera-permissions" spec="1.2.0" />
+   <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
   <plugin name="phonegap-plugin-barcodescanner" spec="7.1.2" />
   
-  <preference name="BackgroundColor" value="#0f322b" />
+  <preference name="BackgroundColor" value="#f0e3cc" />
   <preference name="StatusBarOverlaysWebView" value="false" />
-  <preference name="StatusBarBackgroundColor" value="#0f322b" />
+  <preference name="StatusBarBackgroundColor" value="#f0e3cc" />
   <preference name="DisallowOverscroll" value="true" />
   
   
