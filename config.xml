@@ -14,15 +14,17 @@
   
   <access origin='*' subdomains="true" allows-arbitrary-loads-in-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
   <allow-navigation href="*" />
-  <allow-intent href="http://*/*" />
-  <allow-intent href="https://*/*" />
+  <allow-intent href="http://*/*" launch-external="yes"/>
+  <allow-intent href="https://*/*" launch-external="yes"/>
   
   <platform name="android">
     <preference name="android-minSdkVersion" value="16" />
     <allow-intent href="market:*" />
   </platform>
   <platform name="ios">
-    <icon src="www/icon.png" platform="ios" />
+	<icon height="120" platform="ios" src="www/icon.png" width="120" />
+	  <splash height="1536" platform="ios" src="www/images/Default-Landscape@2x~ipad.png" width="2048" />
+    
   </platform>
   <preference name='phonegap-version' value='cli-6.5.0' />
   
