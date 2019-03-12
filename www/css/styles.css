@@ -116,7 +116,7 @@ body {
 .t-30{top:30%}
 .g-10-15{ border:1px solid #b19071; padding:10px 15px;}
 .btn { display: block; color:#b19071; border:1px solid #b19071; padding:13px 15px 10px 15px; font-size: 16px; }
-.same-height{ font-size: 14px; padding:10px 15px 10px 15px; height: 140px;}
+.same-height{ font-size: 14px; padding:10px; height: 140px;}
 .p-30{padding: 30px 15px 20px 15px;}
 .wrap-center { 
   width: 100%;
