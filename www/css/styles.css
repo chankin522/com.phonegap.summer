@@ -110,8 +110,8 @@ body {
 .text-left{ text-align:left;}
 
 .qt{ position:relative; top:15%;}
-.t-10{top:20px;}
-.t-5{top:15px;}
+.t-10{top:10px;}
+.t-5{top:5px;}
 .t-30{top:30%}
 .g-10-15{ border:1px solid #b19071; padding:10px 15px;}
 .btn { display: block; color:#b19071; border:1px solid #b19071; padding:15px 15px 10px 15px; font-size: 18px; }
