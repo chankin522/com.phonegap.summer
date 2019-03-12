@@ -158,7 +158,7 @@ function formSubmit(){
       },
       success: function(d) {
 		  
-		 alert(d);
+		// alert(d);
         if(d !=''){
           mainView.router.loadPage('gifts.html?session='+d+'&type='+type);
         } else {

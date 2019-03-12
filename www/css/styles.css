@@ -15,11 +15,14 @@
 }
 
 /*eng font*/
+/*eng font*/
 @font-face {
     font-family: 'Gotham';
-    src: url(../fonts/GothamLight.ttf);
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
 }
-
 
 
 *
