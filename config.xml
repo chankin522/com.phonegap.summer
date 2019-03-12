@@ -1,41 +1,39 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.summer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-  <name>Peninsula Summer</name>
+<widget id="com.phonegap.peninsula" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>Peninsula</name>
   <description>
       Developed by RETE
   </description>
   <author email="dev@rete.com.hk" href="http://www.rete.com.hk">
       RETE
   </author>
-  <icon src="www/images/icon-60@2x.png" />
+  <icon src="icon.png" />
   <content src="index.html" />
   
   
   
   <access origin='*' subdomains="true" allows-arbitrary-loads-in-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
   <allow-navigation href="*" />
-  <allow-intent href="http://*/*" launch-external="yes"/>
-  <allow-intent href="https://*/*" launch-external="yes"/>
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
   
   <platform name="android">
     <preference name="android-minSdkVersion" value="16" />
     <allow-intent href="market:*" />
   </platform>
   <platform name="ios">
-      <icon height="120" platform="ios" src="www/images/icon-60@2x.png" width="120" />
-      <splash height="1536" platform="ios" src="www/images/Default-Landscape@2x~ipad.png" width="2048" />
+    <icon src="icon.png" platform="ios" />
   </platform>
   <preference name='phonegap-version' value='cli-6.5.0' />
   
   <plugin name="cordova-plugin-console" spec="~1.0.1" />
   <plugin name="cordova-plugin-statusbar" spec="~2.4.2" />
   <plugin name="cordova-plugin-ios-camera-permissions" spec="1.2.0" />
-   <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
   <plugin name="phonegap-plugin-barcodescanner" spec="7.1.2" />
   
-  <preference name="BackgroundColor" value="#f0e3cc" />
+  <preference name="BackgroundColor" value="#0f322b" />
   <preference name="StatusBarOverlaysWebView" value="false" />
-  <preference name="StatusBarBackgroundColor" value="#f0e3cc" />
+  <preference name="StatusBarBackgroundColor" value="#0f322b" />
   <preference name="DisallowOverscroll" value="true" />
   
   
