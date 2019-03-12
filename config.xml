@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.phonegap.peninsula" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-  <name>Peninsula</name>
+<widget id="com.phonegap.summer" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>Peninsula Summer</name>
   <description>
       Developed by RETE
   </description>
@@ -14,8 +14,8 @@
   
   <access origin='*' subdomains="true" allows-arbitrary-loads-in-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
   <allow-navigation href="*" />
-  <allow-intent href="http://*/*" />
-  <allow-intent href="https://*/*" />
+   <allow-intent href="http://*/*" launch-external="yes"/>
+	<allow-intent href="https://*/*" launch-external="yes"/>
   
   <platform name="android">
     <preference name="android-minSdkVersion" value="16" />
