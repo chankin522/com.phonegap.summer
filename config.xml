@@ -7,7 +7,7 @@
   <author email="dev@rete.com.hk" href="http://www.rete.com.hk">
       RETE
   </author>
-  <icon src="www/icon.png" />
+<icon src="www/images/icon.png" />
   <content src="index.html" />
   
   
