@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="img-src * blob: android-webview-video-poster: cdvphotolibrary:  'self' data:; default-src * blob: 'self' gap: wss: ws: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval';connect-src * http: https: ws: wss:;">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<title>THE PENINSULA BOUTIQUE</title>
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+
+<!-- Views -->
+<div class="views"> 
+  <!-- Your main view, should have "view-main" class -->
+  <div class="view view-main"> 
+    <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+    <div class="pages navbar-through toolbar-through"> 
+      <!-- Page, "data-page" contains page name -->
+      <div data-page="form" class="page"> 
+        <!-- Scrollable page content -->
+        <div class="page-content">
+          <div class="block text-center">
+            <div class="spacer-40"></div>
+            <div><img src="images/logo-tpb.png" height="50" alt=""></div>
+            <div class="spacer-30"></div>
+            <!-- start -->
+            <div class="wrap-center h-100 gold fs-18"> <span>Thank you! Please register and choose your prize.<br/>
+              <span class="t-tc">請登記並選擇獎品。</span><br/>
+              <span class="t-jp">おめでとうございます！ ご登録後、賞品をお選びください。</span></span> </div>
+            <!-- end -->
+            <div class="spacer-30"></div>
+            <!-- button -->
+            <form class="list" id="my-form">
+              <div class="row gold">
+                <div class="col-100 tablet-10"></div>
+                <div class="col-100 tablet-40">
+                  <div class="row  no-gap">
+                    <div class="col-15">
+                      <div class="item-title item-label" >
+                        <div>Name</div>
+                        <div class="t-tc">姓名</div>
+                        <div class="t-jp">お名前</div>
+                      </div>
+                    </div>
+                    <div class="col-85">
+                      <div class="item-input-wrap " >
+                        <input type="text" name="name" class="form-control name" required validate>
+                        <div class="item-input-info">required</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-100 tablet-40">
+                  <div class="row  no-gap">
+                    <div class="col-100 tablet-20">
+                      <div class="item-title item-label">
+                        <div>Gender</div>
+                        <div class="t-tc">性別</div>
+                        <div class="t-jp">性別</div>
+                      </div>
+                    </div>
+                    <div class="col-100 tablet-20">
+                      <div class="item-input-wrap input-dropdown-wrap">
+                        <select name="gender" class="form-control gender">
+                          <option value=""></option>
+                          <option value="Male">Male/<span class="t-tc">男</span></option>
+                          <option value="Female">Female/<span class="t-tc">女</span></option>
+                        </select>
+                        <div class="item-input-info">required</div>
+                      </div>
+                    </div>
+                    <div class="col-100 tablet-20">
+                      <div class="item-title item-label">
+                        <div>Birthday</div>
+                        <div class="t-tc">出生日期</div>
+                        <div class="t-jp">生年月日</div>
+                      </div>
+                    </div>
+                    <div class="col-100 tablet-40">
+                      <div class="item-input-wrap input-dropdown-wrap" style="float: left;  width: 50%;">
+                        <select name="month" class="form-control month">
+                          <option value="">M</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                        </select>
+                        <div class="item-input-info">required</div>
+                      </div>
+                      <div class="item-input-wrap input-dropdown-wrap" style="float: left;  width: 50%;">
+                        <select name="day" class="form-control day">
+                          <option value="">D</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15">15</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                          <option value="18">18</option>
+                          <option value="19">19</option>
+                          <option value="20">20</option>
+                          <option value="21">21</option>
+                          <option value="22">22</option>
+                          <option value="23">23</option>
+                          <option value="24">24</option>
+                          <option value="25">25</option>
+                          <option value="26">26</option>
+                          <option value="27">27</option>
+                          <option value="28">28</option>
+                          <option value="29">29</option>
+                          <option value="30">30</option>
+                          <option value="31">31</option>
+                        </select>
+                        <div class="item-input-info">required</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-100 tablet-10"></div>
+              </div>
+              <div class="spacer-20"></div>
+              <div class="row gold">
+                <div class="col-100 tablet-10"></div>
+                <div class="col-100 tablet-40">
+                  <div class="row  no-gap">
+                    <div class="col-15">
+                      <div class="item-title item-label" >
+                        <div>Email</div>
+                        <div class="t-tc">電郵</div>
+                        <div>Email</div>
+                      </div>
+                    </div>
+                    <div class="col-85">
+                      <div class="item-input-wrap " >
+                        <input type="email" name="email" class="form-control email" required validate>
+                        <div class="item-input-info emtry-email">required</div>
+                        <div class="item-input-info err-email">Incorrect email</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-100 tablet-40">
+                  <div class="row  no-gap">
+                    <div class="col-15">
+                      <div class="item-title item-label" >
+                        <div>Tel</div>
+                        <div class="t-tc">電話</div>
+                        <div class="t-jp">電話</div>
+                      </div>
+                    </div>
+                    <div class="col-85">
+                      <div class="item-input-wrap " >
+                        <input type="text" name="tel" class="form-control tel" required validate pattern="[0-9]*" data-error-message="Only numbers please!">
+                        <div class="item-input-info">required</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-100 tablet-10"></div>
+              </div>
+              <div class="spacer-20"></div>
+              <div class="row gold">
+                <div class="col-100 tablet-10"></div>
+                <div class="col-100 tablet-90 text-left">
+                  <div style="float: left; padding: 0 15px;">
+                   <!-- <label class="item-checkbox item-content">
+                      <input type="checkbox" name="tnc" class="tnc" value="yes">
+                      <i class="icon icon-checkbox"></i> </label>-->
+                     <input type="checkbox" name="tnc" class="tnc" value="yes"> 
+                    
+                  </div>
+                  <div style="float: left;">
+					<div>I have read and agree to the <a href="https://www.peninsulaboutique.com/hk/terms-and-condition/"  class="normal-url external link" data-view=".right-view">Terms and Conditions</a> and <a href="https://www.peninsulaboutique.com/hk/privacy-security"  class="normal-url external link" data-view=".right-view">Data Privacy & Security Policy</a>.</div>
+					  
+					  
+					<div> 我已閱讀及同意<a href=""  class="normal-url t-tc external link" id="btn-tnc-tc">條款細則</a>及<a href="https://www.peninsulaboutique.com/hk/zh/privacy-security" class="normal-url t-tc external link" data-view=".right-view">私隱安全政策</a>。</div>
+                    
+                    
+                    <div><span class="t-jp">私は利用条件およびデータプライバシーとセキュリティポリシーを読み、同意します。</span></div>
+                    <div class="item-input-info err-tnc">required</div>
+                  </div>
+                </div>
+              </div>
+              <div class="spacer-20"></div>
+              <div class="row gold">
+                <div class="col-10"></div>
+                <div class="col-80 text-left">
+                  <div style="padding: 0 15px;"> I would like to receive promotions, event invitations, unique offers, and news about the products and services of the HSH Group and its affiliates, including The Peninsula Hotels, and agree to their use of my personal information to be contacted via:<br/>
+                    <span class="t-tc">我希望收到香港上海大酒店有限公司及其下公司包括半島酒店的商品及服務之推廣、活動邀請、尊享優惠及最新消息，並同意以下途徑接收相關資訊：</span><br/>
+                    <span class="t-jp">私はザ・ペニンシュラホテルを含むHSHグループおよび系列会社の商品およびサービスに関するプロモーション、イベント招待、特別オファー、最新情報を受け取ることを希望し、以下の方法で関連情報を受け取ることに同意します。</span></div>
+                </div>
+                <div class="col-10"></div>
+              </div>
+              <div class="spacer-20"></div>
+              <div class="row gold">
+                <div class="col-10"></div>
+                <div class="col-20 text-left">
+                  <div style="float: left; padding: 0 15px;">
+                    <input type="checkbox" name="re_email" class="re_email" value="email">
+                  </div>
+                  <div style="float: left;">
+                    <label class="checkbox">
+                    <div>Email</div>
+                    <div class="t-tc">電郵</div>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-20 text-left">
+                  <div style="float: left; padding: 0 15px;">
+                    <input type="checkbox" name="re_sns" class="re_sns" value="sns">
+                  </div>
+                  <div style="float: left;">
+                    <label class="checkbox">
+                    <div>SMS</div>
+                    <div class="t-tc">短訊</div>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-50"></div>
+              </div>
+              <div class="spacer-20"></div>
+            </form>
+            <!-- button -->
+            <div class="row">
+              <div class="col-40"></div>
+              <div class="col-20"> <a class="btn" id="btn-submit"> GET OFFER<br/>
+                <span class="t-tc">獲取優惠</span><br/>
+                <span class="t-jp">オファーを受け取る</span> </a> </div>
+              <div class="col-40"></div>
+            </div>
+            <div class="spacer-20"></div>
+          </div>
+        </div>
+        <!-- end page-content --> 
+      </div>
+    </div>
+    <!-- end pages --> 
+  </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script> 
+<script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script> 
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="img-src * blob: android-webview-video-poster: cdvphotolibrary:  'self' data:; default-src * blob: 'self' gap: wss: ws: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval';connect-src * http: https: ws: wss:;">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<title>THE PENINSULA BOUTIQUE</title>
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+
+<!-- Views -->
+<div class="views"> 
+  <!-- Your main view, should have "view-main" class -->
+  <div class="view view-main"> 
+    <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+    <div class="pages navbar-through toolbar-through"> 
+      <!-- Page, "data-page" contains page name -->
+      <div data-page="q1" class="page">
+        <div class="page-content">
+          <div class="block text-center">
+            <div class="spacer-40"></div>
+            <div><img src="images/logo-tpb.png" height="50" alt=""></div>
+            <div class="spacer-30"></div>
+            <!-- start -->
+            <div class="tabs-animated-wrap">
+              <div class="tabs"> 
+                <!-- tab 1 -->
+                <div class="tab active" id="tab1">
+                  <div class="h-90 gold fs-18"> Please answer the following questions.<br/>
+                    請回答以下題目<br/>
+                    以下の質問にお答えください </div>
+                  <div class="wrap-center gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Which of the following is not the design inspiration of “Splendid Pig Collection”?<br/>
+                    以下哪一款不是「歲歲豐盛豬年系列」的設計靈感來源?<br/>
+                    以下のうち「スプレンディッドピッグコレクション」のデザインのインスピレーションではないのは？ 
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-100 tablet-40"><img src="images/photo1.jpg" width="100%"></div>
+                    <div class="col-100 tablet-40">
+                      <div class="row"> 
+						  <a class="col-50 btn h-150 pt-40 btn-answer" data-id="" data-title="#tab2"> Chinese gold coin<br/>
+                        運財金幣<br/>
+                        中国の金貨</a> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="" data-title="#tab2"> Piggy bank<br/>
+                        金豬錢罌<br/>
+                        豚の貯金箱 </a> </div>
+                      <div class="spacer-20"></div>
+                      <div class="row"> <a class="col-50 btn h-150 btn-answer" data-id="" data-title="#tab2"> “Pailou” entrance of   The Peninsula Beijing<br/>
+                        北京王府半島酒店大門外的「牌樓」<br/>
+                        ザ・ペニンシュラ北京の「牌楼」の入口 </a> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="#tab2"> Chinese knot<br/>
+                        中國繩結<br/>
+                        中国の結び目 </a> </div>
+                    </div>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+                <!-- tab 2 -->
+                <div class="tab" id="tab2">
+                  <div class="h-90 gold fs-18"> Please answer the following questions.<br/>
+                    請回答以下題目<br/>
+                    以下の質問にお答えください </div>
+                  <div class="wrap-center gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Which of the following is the new Chinese New Year Pudding flavour this year?<br/>
+                    以下哪一款是今年的新口味年糕？<br/>
+                    以下のうち今年の新作中国餅の味は？ 
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-100 tablet-40"><img src="images/photo2.jpg" width="100%"></div>
+                    <div class="col-100 tablet-40">
+                      <div class="row"> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="" data-title="#tab3"> Jasmine Tea<br/>
+                        香片<br/>
+                        ジャスミン茶 </a> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="" data-title="#tab3"> Cheese<br/>
+                        芝士<br/>
+                        チーズ </a> </div>
+                      <div class="spacer-20"></div>
+                      <div class="row"> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="" data-title="#tab3"> Red Bean<br/>
+                        紅豆<br/>
+                        あずき </a> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="#tab3" > Pu Er Tea<br/>
+                        普洱<br/>
+                        プーアル茶 </a> </div>
+                    </div>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+                <!-- tab 3 -->
+                <div class="tab" id="tab3">
+                  <div class="h-90 gold fs-18"> Please answer the following questions.<br/>
+                    請回答以下題目<br/>
+                    以下の質問にお答えください </div>
+                  <div class="wrap-center gold fs-18"> <span> 
+                    <!-- start content --> 
+                    How many compartments are there in our Spring Calendar?<br/>
+                    我們的春節日曆內收藏着多少個小盒子？<br/>
+                    当店の旧正月カレンダーに含まれている小箱の数は？ 
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-100 tablet-40"><img src="images/photo3.jpg" width="100%"></div>
+                    <div class="col-100 tablet-40">
+                      <div class="row"> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="" data-title="#tab4"> 13 </a> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="" data-title="#tab4"> 15 </a> </div>
+                      <div class="spacer-20"></div>
+                      <div class="row"> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="" data-title="#tab4"> 17 </a> <a class="col-50 btn h-150 pt-40 btn-answer" data-id="#tab4" > 18 </a> </div>
+                    </div>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+                <!-- tab 4 -->
+                <div class="tab" id="tab4">
+                  <div class="h-90 gold fs-18"> Please answer the following questions.<br/>
+                    請回答以下題目<br/>
+                    以下の質問にお答えください </div>
+                  <div class="wrap-center gold fs-18"> <span> 
+                    <!-- start content --> 
+                    How many compartments are there in our Spring Calendar?<br/>
+                    我們的春節日曆內收藏着多少個小盒子？<br/>
+                    当店の旧正月カレンダーに含まれている小箱の数は？ 
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <div class="col-100 tablet-40"><img src="images/photo4.jpg" width="100%"></div>
+                    <div class="col-100 tablet-40">
+                      <div class="row"> 
+						  <a class="col-50 btn h-150 pt-40 btn-end"> Pecan Cookies<br/>
+                        山核桃曲奇<br/>
+                        ピーカンクッキー </a> 
+						  <a class="col-50 btn h-150 pt-40 btn-end"> Ginger Candies<br/>
+                        薑糖<br/>
+                        しょうがキャンディー </a> </div>
+                      <div class="spacer-20"></div>
+                      <div class="row"> 
+						  <a class="col-50 btn h-150 pt-40 btn-end"> XO Chilli Sauce<br/>
+                        XO辣椒醬<br/>
+                        XO醤 </a> 
+						  <a class="col-50 btn h-150 " href="form.html"> Chinese New Year<br/>
+                        Pudding – Jasmine Tea<br/>
+                        香片年糕<br/>
+                        中国餅 - ジャスミン茶風味 </a> </div>
+                    </div>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+                
+                <!-- wrong -->
+                <div class="tab" id="wrong">
+                  <div class="wrap-center gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Oh, no! You have selected the wrong answer<br/>
+                    對不起，您選擇的答案不正確<br/>
+                    残念ながら、不正解です。 
+                    <!-- end content --> 
+                    </span> </div>
+                  
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-40"></div>
+                    <a class="col-20 btn tab-link" data-id="3" href=""> NEXT QUESTION<br/>
+                    下一題<br/>
+                    次の問題 </a>
+                    <div class="col-40"></div>
+                  </div>
+                  <!-- end button --> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script> 
+<script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script> 
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>

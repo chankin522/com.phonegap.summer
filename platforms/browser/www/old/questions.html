@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="img-src * blob: android-webview-video-poster: cdvphotolibrary:  'self' data:; default-src * blob: 'self' gap: wss: ws: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval';connect-src * http: https: ws: wss:;">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<title>THE PENINSULA BOUTIQUE</title>
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+
+<!-- Views -->
+<div class="views"> 
+  <!-- Your main view, should have "view-main" class -->
+  <div class="view view-main"> 
+    <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+    <div class="pages navbar-through toolbar-through"> 
+      <!-- Page, "data-page" contains page name -->
+      <div data-page="questions" class="page"> 
+        <!-- Scrollable page content -->
+        <div class="page-content">
+          <div class="block text-center gold">
+            <div class="spacer-40"></div>
+            <div><img src="images/logo-tpb.png" height="50" alt=""></div>
+            <div class="spacer-30"></div>
+            <!-- start -->
+            <div class="fs-18">
+             Please select a theme and complete the quiz to win a prize! Are you ready?<br/>
+請選擇一個主題並完成問答以贏取禮品！您準備好了嗎？<br/>
+テーマを1つ選び、クイズに正解すると賞品が当たります！準備はできましたか？
+            </div>
+            <div class="spacer-40"></div><!-- seperator -->
+            <div class="row">
+              <div class="col-100 tablet-10"></div>
+              <div class="col-100 tablet-80">
+                <div  class="row no-gap">
+                  <div class="col tablet-50">
+                    <div class="p15"><a href="q1.html" class="btn-q"><img src="images/q1.jpg" alt="" width="100%" ></a></div>
+                  </div>
+                  <div class="col tablet-50">
+                    <div class="p15"><a href="q2.html" class="btn-q"><img src="images/q2.jpg" alt="" width="100%" ></a></div>
+                  </div>
+                 
+                </div>
+              </div>
+              <div class="col-100 tablet-10"></div>
+            </div>
+             <div class="spacer-40"></div><!-- seperator -->
+			  <!-- button -->
+            <div class="row">
+              <div class="col-30"></div>
+              <a class="col-40 btn" href="index.html">
+                  RETURN<br/>
+按此返回<br/>
+戻る
+              </a>
+              <div class="col-30"></div>
+            </div>
+			  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script> 
+<script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script> 
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>

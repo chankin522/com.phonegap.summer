@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="img-src * blob: android-webview-video-poster: cdvphotolibrary:  'self' data:; default-src * blob: 'self' gap: wss: ws: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval';connect-src * http: https: ws: wss:;">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<title>THE PENINSULA BOUTIQUE</title>
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+
+<!-- Views -->
+<div class="views"> 
+  <!-- Your main view, should have "view-main" class -->
+  <div class="view view-main"> 
+    <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+    <div class="pages navbar-through toolbar-through"> 
+      <!-- Page, "data-page" contains page name -->
+      <div data-page="q2" class="page">
+        <div class="page-content">
+          <div class="block text-center">
+            <div class="spacer-40"></div>
+            <div><img src="images/logo-tpb.png" height="50" alt=""></div>
+            <div class="spacer-30"></div>
+            <!-- start -->
+            <div class="tabs-animated-wrap">
+              <div class="tabs"> 
+                <!-- tab 1 -->
+                <div class="tab active" id="tab1">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc line0">請回答以下問題。</span><br/>
+                    <span class="t-jp line0">以下の質問にお答えください 。</span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    
+                    Would you be interested in “ready to drink” beverage at our boutique? <br/>
+                    If yes, which kind of beverage do you prefer?<br/>
+                    <span class="t-tc line0">如半島精品店售賣現成飲料，您會有興趣嗎？如有，您會希望有什麼選擇？</span><br/>
+                    <span class="t-jp line0">ザ・ペニンシュラブティックで「RTD」（開けてすぐ飲める飲料）を販売したら、ご興味はお<br/>
+                    ありですか？ ある場合、どのような飲料がよいと思いますか？</span><br/>
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a href="" class="col-25 btn p-30 tab-link same-height" data-id="#tab2" data-title="Yes, cold tea">Yes, cold tea<br/>
+                    <span class="t-tc">有，冷泡茶</span><br/>
+                    <span class="t-jp">あります、アイスティー</span></a> <a href="" class="col-25 btn p-30 tab-link same-height" data-id="#tab2" data-title="Yes, chocolate">Yes, chocolate<br/>
+                    <span class="t-tc">有，朱古力</span><br/>
+                    <span class="t-jp">あります、チョコレートドリンク</span></a>
+                    <div class="col-25"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a href="" class="col-25 btn p-30 tab-link same-height" data-id="#tab2" data-title="Yes, juice">Yes, juice<br/>
+                    <span class="t-tc">有，果汁</span><br/>
+                    <span class="t-jp">あります、ジュース</span> </a> <a href="" class="col-25 btn p-30 tab-link same-height"  data-id="#tab2" data-title="No">No<br/>
+                    <span class="t-tc">沒有</span><br/>
+                    <span class="t-jp">ありません</span> </a>
+                    <div class="col-25"></div>
+                  </div>
+                </div>
+                <!-- tab 2 -->
+                <div class="tab" id="tab2">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc line0">請回答以下問題。</span><br/>
+                    <span class="t-jp line0">以下の質問にお答えください 。</span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Which savory snack do you prefer?<br/>
+                    <span class="t-tc line0">您喜歡哪一種小食？</span><br/>
+                    <span class="t-jp line0">お好きなスナックは？</span> 
+                    
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a class="col-25 btn p-30 tab-link same-height" data-id="#tab3" data-title="Nuts" href="">Nuts<br/>
+                    <span class="t-tc">果仁</span><br/>
+                    <span class="t-jp">ナッツ </span></a> <a class="col-25 btn p-30 tab-link same-height" data-id="#tab3" data-title="Chips" href="">Chips<br/>
+                    <span class="t-tc">薯片</span><br/>
+                    <span class="t-jp">ポテトチップス</span></a>
+                    <div class="col-25"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a class="col-25 btn p-30 tab-link same-height" data-id="#tab3" data-title="Cookies or shortbread" href="">Cookies or shortbread<br/>
+                    <span class="t-tc">曲奇或酥餅</span><br/>
+                    <span class="t-jp">クッキーまたはショートブレッド</span></a> <a class="col-25 btn p-30 tab-link same-height" data-id="#tab3" data-title="Egg Rolls" href=""> Egg Rolls<br/>
+                    <span class="t-tc">蛋卷</span><br/>
+                    <span class="t-jp">エッグロール</span> </a>
+                    <div class="col-25"></div>
+                  </div>
+                </div>
+                <!-- tab 3 -->
+                <div class="tab" id="tab3">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc line0">請回答以下問題。</span><br/>
+                    <span class="t-jp line0">以下の質問にお答えください 。</span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Which of the following is the most important criteria <br/>
+                    when you consider purchasing a product?<br/>
+                    <span class="t-tc line0">當您購物時，您會考慮以下哪一項產品特質？</span><br/>
+                    <span class="t-jp line0">お買い物の際、以下のうち最も重要視する点は？</span> 
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a class="col-25 btn p-30 tab-link same-height" data-id="#tab4" data-title="Vegan" href="">Vegan<br/>
+                    <span class="t-tc">純素</span><br/>
+                    <span class="t-jp">ヴィーガン</span></a> <a class="col-25 btn p-30 tab-link same-height" data-id="#tab4" data-title="Gluten-free" href="">Gluten-free<br/>
+                    <span class="t-tc">不含麩質</span><br/>
+                    <span class="t-jp">グルテンフリー</span></a>
+                    <div class="col-25"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a class="col-25 btn p-30 tab-link same-height" data-id="#tab4" data-title="Low sugar" href="">Low sugar<br/>
+                    <span class="t-tc">低糖</span><br/>
+                    <span class="t-jp">低糖</span> </a> <a class="col-25 btn p-30 tab-link same-height" data-id="#tab4" data-title="No preservatives" href="">No preservatives<br/>
+                    <span class="t-tc">不含防腐劑</span><br/>
+                    <span class="t-jp">防腐剤無使用</span></a>
+                    <div class="col-25"></div>
+                  </div>
+                </div>
+                <!-- tab 4 -->
+                <div class="tab" id="tab4">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc line0">請回答以下問題。</span><br/>
+                    <span class="t-jp line0">以下の質問にお答えください 。</span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    
+                    Which of the following Peninsula products do you prefer?<br/>
+                    <span class="t-tc line0">您喜歡以下哪一款半島產品？</span><br/>
+                    <span class="t-jp line0">お好きなペニンシュラ商品は？</span> 
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-25"></div>
+                    
+					  <a class="col-25 btn p-30 tab-link same-height" data-id="#tab5" data-title="With Peninsula hotel element" href="">With Peninsula hotel element<br/>
+                    <span class="t-tc">含有半島酒店元素</span><br/>
+                    <span class="t-jp">ペニンシュラホテルの要素が含まれている商品</span></a> 
+					  
+					  
+					  <a class="col-25 btn p-30 tab-link same-height" data-id="#tab5" data-title="Crossover with other brands" href="">Crossover with other brands<br/>
+                    <span class="t-tc">與其他品牌聯乘</span><br/>
+                    <span class="t-jp">他のブランドとのコラボ商品</span></a>
+                    <div class="col-25"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a class="col-25 btn p-30 tab-link same-height" data-id="#tab5" data-title="Bedding products" href="">Bedding products<br/>
+                    <span class="t-tc">寢具產品</span><br/>
+                    <span class="t-jp">寝具商品</span> </a> <a class="col-25 btn p-30 tab-link same-height" data-id="#tab5" data-title="Travel sets" href="">Travel sets<br/>
+                    <span class="t-tc">旅行裝禮品</span><br/>
+                    <span class="t-jp">トラベルセット</span></a>
+                    <div class="col-25"></div>
+                  </div>
+                </div>
+                <!-- tab 5 -->
+                <div class="tab" id="tab5">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc line0">請回答以下問題。</span><br/>
+                    <span class="t-jp line0">以下の質問にお答えください 。</span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    
+                    Which of the following category would you like to see more products?<br/>
+                    <span class="t-tc line0">您希望以下哪一個類別會推出更多新產品？</span><br/>
+                    <span class="t-jp line0">より多くの新商品を見たいと思うものは？</span> 
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a class="col-25 btn p-30 btn-end" data-id="Lifestyle"  href=""> Lifestyle<br/>
+                    <span class="t-tc">時尚生活精品</span><br/>
+                    <span class="t-jp">ライフスタイル</span> </a> <a class="col-25 btn p-30 btn-end" data-id="Chocolate" href="">Chocolate<br/>
+                    <span class="t-tc">朱古力</span><br/>
+                    <span class="t-jp">チョコレート</span></a>
+                    <div class="col-25"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-25"></div>
+                    <a class="col-25 btn p-30 btn-end" data-id="Delicacies" href=""> Delicacies<br/>
+                    <span class="t-tc">美味小食</span><br/>
+                    <span class="t-jp">お菓子・スナック類 </span></a> <a class="col-25 btn p-30 btn-end" data-id="Teas" href="">Teas<br/>
+                    <span class="t-tc">名茶</span><br/>
+                    <span class="t-jp">お茶 </span></a>
+                    <div class="col-25"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script> 
+<script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script> 
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>

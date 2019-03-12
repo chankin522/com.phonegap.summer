@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="img-src * blob: android-webview-video-poster: cdvphotolibrary:  'self' data:; default-src * blob: 'self' gap: wss: ws: ; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval';connect-src * http: https: ws: wss:;">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<title>THE PENINSULA BOUTIQUE</title>
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+<link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+
+<!-- Views -->
+<div class="views"> 
+  <!-- Your main view, should have "view-main" class -->
+  <div class="view view-main"> 
+    <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+    <div class="pages navbar-through toolbar-through"> 
+      <!-- Page, "data-page" contains page name -->
+      <div data-page="q2" class="page">
+        <div class="page-content">
+          <div class="block text-center">
+            <div class="spacer-40"></div>
+            <div><img src="images/logo-tpb.png" height="50" alt=""></div>
+            <div class="spacer-30"></div>
+            <!-- start -->
+            <div class="tabs-animated-wrap">
+              <div class="tabs"> 
+                <!-- tab 1 -->
+                <div class="tab active" id="tab1">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc">請回答以下問題</span><br/>
+                    <span class="t-jp">以下の質問にお答えください </span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    What kind of chocolate snack do you prefer?<br/>
+                    <span class="t-tc">您喜歡哪一款朱古力食品?</span><br/>
+                    <span class="t-jp">お好きなチョコレート菓子は？</span><br/>
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <a class="col-40 btn tab-link" data-id="2" href="#tab2"> Praline Wafer Rolls<br/>
+                    <span class="t-tc">朱古力威化卷</span><br/>
+                    <span class="t-jp">プラリネクレープロール </span></a> 
+                    <a class="col-40 btn tab-link" data-id="2" href="#tab2"> Chocolate Tablet<br/>
+                    <span class="t-tc">朱古力塊</span><br/>
+                    <span class="t-jp">板チョコ </span></a>
+                    <div class="col-10"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-10"></div>
+                     <a class="col-40 btn tab-link" data-id="2" href="#tab2"> Chocolate-coated Potato Chips<br/>
+                    <span class="t-tc">朱古力薯片</span><br/>
+                    <span class="t-jp">チョコレートポテトチップス</span> </a>  
+                    <a class="col-40 btn tab-link" data-id="2" href="#tab2">Chocolate-coated Marshmallows<br/>
+                    <span class="t-tc">朱古力棉花糖</span><br/>
+                    <span class="t-jp">チョコレートマシュマロ</span> </a>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+                <!-- tab 2 -->
+                <div class="tab" id="tab2">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc">請回答以下問題</span><br/>
+                    <span class="t-jp">以下の質問にお答えください </span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Which chocolate flavour do you prefer?<br/>
+                    <span class="t-tc">您喜歡哪一款朱古力味道?</span><br/>
+                    <span class="t-jp">お好きなチョコレートの味は？</span> 
+                    
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                     <a class="col-40 btn tab-link" data-id="3" href="#tab3"> Nutty Chocolate<br/>
+                    <span class="t-tc">果仁</span><br/>
+                    <span class="t-jp">ナッツ </span></a> 
+                    <a class="col-40 btn tab-link" data-id="3" href="#tab3">Fruity Chocolate<br/>
+                    <span class="t-tc">果香</span><br/>
+                    <span class="t-jp">フルーツ</span></a>
+                    <div class="col-10"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <a class="col-40 btn tab-link" data-id="3" href="#tab3"> Grand Cru Dark Chocolate<br/>
+                    <span class="t-tc">特級黑朱古力</span><br/>
+                    <span class="t-jp">特選ダークチョコレート</span></a> 
+                    <a class="col-40 btn tab-link" data-id="3" href="#tab3">
+                    Wine infused Chocolate<br/>
+                    <span class="t-tc">酒味</span><br/>
+                    <span class="t-jp">アルコール入り</span> </a>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+                <!-- tab 3 -->
+                <div class="tab" id="tab3">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc">請回答以下問題</span><br/>
+                    <span class="t-jp">以下の質問にお答えください </span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Which type of tea do you prefer?<br/>
+                    <span class="t-tc">您喜歡哪一款茶？</span><br/>
+                    <span class="t-jp">お好きなお茶の種類は？ </span>
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <a class="col-40 btn tab-link" data-id="4" href="#tab4"> Black Tea<br/>
+                    <span class="t-tc">紅茶</span><br/>
+                    <span class="t-jp">紅茶 </span></a>  <a class="col-40 btn tab-link" data-id="4" href="#tab4">  Green Tea<br/>
+                    <span class="t-tc">綠茶</span><br/>
+                    <span class="t-jp">緑茶</span></a>
+                    <div class="col-10"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <a class="col-40 btn tab-link" data-id="4" href="#tab4"> Fruit Tea<br/>
+                    <span class="t-tc">果茶</span><br/>
+                    <span class="t-jp">フルーツティー</span> </a>  <a class="col-40 btn tab-link" data-id="4" href="#tab4">Oolong Tea<br/>
+                    <span class="t-tc">烏龍茶</span><br/>
+                    <span class="t-jp">ウーロン茶 </span></a>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+                <!-- tab 4 -->
+                <div class="tab" id="tab4">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc">請回答以下問題</span><br/>
+                    <span class="t-jp">以下の質問にお答えください </span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Which packaging do you prefer?<br/>
+                    <span class="t-tc">您喜歡哪一款包裝？</span><br/>
+                    <span class="t-jp">お好きなパッケージは？</span> 
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <a class="col-40 btn tab-link" data-id="5" href="#tab5">Tea Leaves in Tin<br/>
+                    <span class="t-tc">罐裝茶葉</span><br/>
+                    <span class="t-jp">缶入り・茶葉 </span></a> <a class="col-40 btn tab-link" data-id="5" href="#tab5"> Tea Bags in Tin<br/>
+                    <span class="t-tc">罐裝茶包</span><br/>
+                    <span class="t-jp">缶入り・ティーバッグ</span></a>
+                    <div class="col-10"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <a class="col-40 btn tab-link" data-id="5" href="#tab5">Tea Leaves in Box<br/>
+                    <span class="t-tc">盒裝茶葉</span><br/>
+                    <span class="t-jp">ボックス入り・茶葉</span> </a> <a class="col-40 btn tab-link" data-id="5" href="#tab5">Tea Bags in Box<br/>
+                    <span class="t-tc">盒裝茶包</span><br/>
+                    <span class="t-jp">ボックス入り・ティーバッグ</span></a>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+                <!-- tab 5 -->
+                <div class="tab" id="tab5">
+                  <div class="h-90 gold fs-18"> Please answer the following question.<br/>
+                    <span class="t-tc">請回答以下問題</span><br/>
+                    <span class="t-jp">以下の質問にお答えください </span></div>
+                  <div class="wrap-center h-380 gold fs-18"> <span> 
+                    <!-- start content --> 
+                    Which one of the following delicacies do you like most?<br/>
+                    <span class="t-tc">您最喜歡以下哪一款小吃？</span><br/>
+                    <span class="t-jp">以下のお菓子のうち一番お好きなものは？ </span>
+                    <!-- end content --> 
+                    </span> </div>
+                  <!-- end -->
+                  <div class="spacer-30"></div>
+                  <!-- button -->
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <a class="col-40 btn" href="form.html"> Shortbread<br/>
+                    <span class="t-tc">牛油酥餅</span><br/>
+                    <span class="t-jp">ショートブレッド</span> </a> <a class="col-40 btn" href="form.html">Egg Rolls<br/>
+                    <span class="t-tc">蛋卷</span><br/>
+                    <span class="t-jp">エッグロール </span></a>
+                    <div class="col-10"></div>
+                  </div>
+                  <div class="spacer-20"></div>
+                  <div class="row">
+                    <div class="col-10"></div>
+                    <a class="col-40 btn" href="form.html"> Palmiers<br/>
+                    <span class="t-tc">蝴蝶酥</span><br/>
+                    <span class="t-jp">パルミエ </span></a> 
+                    <a class="col-40 btn" href="form.html">Cookies<br/>
+                    <span class="t-tc">曲奇</span><br/>
+                    <span class="t-jp">クッキー </span></a>
+                    <div class="col-10"></div>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script> 
+<script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script> 
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>
