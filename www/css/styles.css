@@ -112,6 +112,7 @@ body {
 .qt{ position:relative; top:20%;}
 .t-10{top:10px !important;}
 .t-5{top:5px !important;}
+.t-0{top:0px !important;}
 .t-30{top:30%}
 .g-10-15{ border:1px solid #b19071; padding:10px 15px;}
 .btn { display: block; color:#b19071; border:1px solid #b19071; padding:13px 15px 10px 15px; font-size: 16px; }
