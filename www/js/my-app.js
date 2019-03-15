@@ -377,7 +377,7 @@ var i=0;
 i++;
 gifttext[i]='10% off upon any purchase<br/><span class="t-tc">享有九折購物優惠</span><br/><span class="t-jp">全商品が10%オフ</span>';
 i++;
-gifttext[i]='Special offer of HK$ 800 for 1 HK$ 1,900 hamper<br/><span class="t-tc">以優惠價800港元購買價值1,900港元之禮物籃</span><br/><span class="t-jp">HK$ 1,900のギフトセット1つが特別価格のHK$800に</span>';
+gifttext[i]='<span style="letter-spacing: -0.5px;">Special offer of HK$ 800 for 1 HK$ 1,900 hamper</span><br/><span class="t-tc">以優惠價800港元購買價值1,900港元之禮物籃</span><br/><span class="t-jp">HK$ 1,900のギフトセット1つが特別価格のHK$800に</span>';
 i++;
 gifttext[i]='Enjoy 40% off on XO Chilli Sauce<br/><span class="t-tc">以六折優惠購買XO辣椒醬</span><br/><span class="t-jp">XO醤が40%オフ</span>';
 i++;
