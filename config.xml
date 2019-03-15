@@ -23,7 +23,7 @@
   </platform>
   <platform name="ios">
       <icon height="120" platform="ios" src="www/images/icon-60@2x.png" width="120" />
-     
+     <splash height="1536" platform="ios" src="www/images/Default-Landscape@2x~ipad.png" width="2048" />
   </platform>
   <preference name='phonegap-version' value='cli-6.5.0' />
   
